@@ -1,0 +1,56 @@
+{
+  "private": false,
+  "name": "draft-js-plugins-chainable",
+  "version": "0.0.1",
+  "description": "Chainable draft-js-plugins",
+  "main": "lib/index.js",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "precommit": "lint-staged",
+    "build": "cross-env rimraf .babelrc && nwb build-web-module --no-demo",
+    "build:watch": "npm-watch",
+    "clean": "nwb clean-module",
+    "prepublishOnly": "npm run build",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2",
+    "npm-watch": "^0.3.0",
+    "nwb": "0.23.x",
+    "prettier": "^1.14.2"
+  },
+  "watch": {
+    "build": "src/*"
+  },
+  "author": {
+    "name": "Stefan Baumann",
+    "url": "https://www.gigmade.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bebbi/draft-js-plugins-chainable.git"
+  },
+  "peerDependencies": {
+    "draft-js-plugins-editor": "^2.1.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "lint-staged": {
+    "*.{js,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
