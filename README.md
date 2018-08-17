@@ -38,3 +38,7 @@ Note that the `blockRendererFn` mechanism is experimental, I'm not using it righ
         <Editor plugins={plugins} {...otherProps} />
       )
     }
+
+## Roadmap
+
+We could consider adding options to plugins to skip single handlers altogether, or ignore them returning `'handled'`. This would allow for more flexible integration with existing plugins such as `draft-js-focus-plugin`.

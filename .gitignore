@@ -5,9 +5,9 @@ node_modules
 /coverage
 
 # production
-packages/*/build
-packages/*/es
-packages/*/lib
+build
+es
+lib
 
 # misc
 .DS_Store

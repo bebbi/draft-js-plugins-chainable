@@ -52,5 +52,14 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "keywords": [
+    "draft-js",
+    "plugin",
+    "chain",
+    "handleReturn",
+    "blockRendererFn",
+    "draft-js-plugins",
+    "draft-js-plugins-editor"
+  ]
 }
