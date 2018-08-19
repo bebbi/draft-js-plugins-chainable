@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "draft-js-plugins-chainable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Chainable draft-js-plugins",
   "main": "lib/index.js",
   "files": [
