@@ -1,5 +1,7 @@
 # draft-js-plugins-chainable
 
+## Note: Archived
+
 ## Why?
 
 The main motivation for this package was [this issue](https://github.com/draft-js-plugins/draft-js-plugins/issues/1162):
